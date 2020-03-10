@@ -27,5 +27,5 @@ array.select {|x|x.start_with?('a')}
 end
 
 def sum_array(array)
-  array.inject(0){|sum,x|sum+x}
+  array.inject(0,:+)
 end

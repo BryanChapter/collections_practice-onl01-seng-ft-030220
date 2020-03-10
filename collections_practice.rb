@@ -19,5 +19,6 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each {|a|}
+  money=[]
+  array.each {|a| a2="$"}
 end

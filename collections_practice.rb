@@ -31,5 +31,6 @@ def sum_array(array)
 end
 
 def add_s(input)
-  input.each_with_index {|element, index| element[element.length] = "s" unless index == 1}
+  input.each_with_index {|element, index| element[element.length] = "s"
+    unless index == 1}
 end

@@ -22,6 +22,6 @@ def kesha_maker(array)
   array.each {|a| a[2]="$"}
 end
 
-def find_a(array, letter)
+def find_a(array, a)
 array.select {|x|x.start_with?("a")}
 end

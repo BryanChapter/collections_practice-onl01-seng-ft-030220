@@ -22,7 +22,7 @@ def kesha_maker(array)
   array.each {|a| a[2]="$"}
 end
 
-def find_a(array)
-  array.start_with?("a")
+def find_a(array, a)
+array.each {|letter|letter.include? a}
 end
   

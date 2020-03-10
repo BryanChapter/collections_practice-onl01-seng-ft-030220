@@ -23,5 +23,5 @@ def kesha_maker(array)
 end
 
 def find_a(array, a)
-array.each {|letter|letter.include? a}
+array.select {|letter|letter.include? a}
 end

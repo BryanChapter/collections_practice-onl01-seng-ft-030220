@@ -19,7 +19,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  money = input.split('')
+  money = array.split('')
   puts money.length
   puts money[2]
   puts money.each {|$| puts $}

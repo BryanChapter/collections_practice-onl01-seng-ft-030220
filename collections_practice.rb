@@ -17,3 +17,10 @@ end
 def reverse_array(array)
   array.reverse {|a,b| a<=>b}
 end
+
+def kesha_maker(array)
+  money = input.split('')
+  puts money.length
+  puts money[2]
+  puts money.each {|$| puts $}
+end

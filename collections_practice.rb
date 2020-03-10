@@ -25,4 +25,3 @@ end
 def find_a(array, a)
 array.each {|letter|letter.include? a}
 end
-  

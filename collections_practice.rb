@@ -31,9 +31,7 @@ def sum_array(array)
 end
 
 def add_s(input)
-  input.each_with_index.map do |element, index|
-    next element if to_skip.include?(index)
-    element + "s"
+  input.each_with_index do |element, index|
+    element[element.length] = "s" unless index == 1
   end
 end
-  

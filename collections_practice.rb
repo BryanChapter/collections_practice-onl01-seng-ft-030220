@@ -23,9 +23,17 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-array.select {|x|x.start_with?('a')}
+array.select {|x| x.start_with?('a')}
 end
 
 def sum_array(array)
   array.inject(0,:+)
 end
+
+def add_s(input)
+  input.each_with_index.map do |element, index|
+    next element if to_skip.include?(index)
+    element + "s"
+  end
+end
+  
